@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+
+    <style>
+
+        body {
+            background-color: lightcyan;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati quibusdam culpa eum quidem, sit cupiditate totam, harum quis esse modi aperiam impedit magni nobis vitae adipisci, cum rem voluptas facilis.</p>
+
+    <script>
+
+        /*
+            Para conversão de string para number pode se usar:
+                Number.parseInt(n) para número inteiros
+                Number.parseFloat(n) para números com vírgula
+
+            Atualmente usar somente:
+                Number(n)
+        */
+
+       /*
+            Para conversão de number para string pode se usar:
+                String(n)
+                n.toString()
+        */
+
+        var n1 = Number(window.prompt('Digite um número: ')) // string
+        var n2 = Number(window.prompt('Digite outro número: ')) // string
+        var s = n1 + n2
+        
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s} `) 
+
+        // (number + number) para adição
+            
+        // (string + string) para concatenação
+
+        /*
+            var s = 'JavaScript'
+
+                'Eu estou aprendendo s'
+                    não faz interpolação
+
+                'Eu estou apredendo' + s
+                    Usa contatenação
+
+                `Eu estou aprendendo ${s}`
+                    usa template string
+        */
+
+        /*
+            var s = 'JavaScript'
+
+                s.length
+                    quantos caracteres a string tem
+
+                s.toUpperCase()
+                    tudo para 'MAIÚSCULAS'
+
+                s.toLowerCase()
+                    tudo para 'minúsculas'
+        */
+
+
+    </script>
+</body>
+</html>
